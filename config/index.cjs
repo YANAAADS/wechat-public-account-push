@@ -28,11 +28,11 @@ const USER_CONFIG = {
       horoscopeDate: '2023-09-07',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {birthday_message,DATA:
+        {'birthday_message',DATA:
           type: '*生日', name: '张怡静', year: '2004', date: '09-07',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {birthday_message,DATA:
+        {'birthday_message',DATA:
           type: '生日', name: '张怡静', year: '2004', date: '07-23',
         },
         {
